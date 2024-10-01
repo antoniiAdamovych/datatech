@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    button[class^="btn-"] {
+        @apply rounded-full px-6 py-2 transition-colors duration-500;
+    }
+
+    .btn-secondary {
+        @apply bg-secondary text-light hover:bg-light hover:text-dark;
+    }
+    .btn-primary {
+      @apply bg-primary text-dark hover:bg-light hover:text-dark;
+    }
+  }
+
+h1 {
+    font-size: 5rem;
+    line-height: 5.2rem;
+}
+
+body {
+    font-family: "Montserrat", system-ui;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+
+    height: 200vh;
+}
+
+header,
+footer,
+main {
+    max-width: 2000px;
+
+    width: 100vw;
+    margin: 0 auto;
+}
