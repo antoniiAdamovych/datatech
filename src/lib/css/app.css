@@ -4,30 +4,43 @@
 
 @layer components {
 
-    button[class^="btn-"] {
-        @apply rounded-full px-6 py-2 transition-colors duration-500;
+    button[class^="btn-"], a[class^="btn-"] {
+        @apply rounded-full px-6 py-2 transition-all duration-500 scale-100;
+    }
+
+    button[class^="btn-"]:active, a[class^="btn-"]:active {
+        @apply transform scale-95;
     }
 
     .btn-secondary {
         @apply bg-secondary text-light hover:bg-light hover:text-dark;
     }
+
     .btn-primary {
-      @apply bg-primary text-dark hover:bg-light hover:text-dark;
+        @apply bg-primary text-dark hover:bg-light hover:text-dark;
     }
-  }
 
-h1 {
-    font-size: 5rem;
-    line-height: 5.2rem;
-}
+    html,
+    body {
+        @apply overflow-x-hidden;
+    }
 
-body {
-    font-family: "Montserrat", system-ui;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
+    h1 {
+        @apply text-5xl leading-[3.3rem] lg:text-8xl;
+    }
 
-    height: 200vh;
+    .container {
+        @apply px-4;
+    }
+
+    body {
+        @apply text-light;
+        
+        font-family: "Montserrat", system-ui;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
+    }
 }
 
 header,

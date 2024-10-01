@@ -1,7 +1,9 @@
-<section class="h-screen w-full relative flex items-center">
+<section class="min-h-screen relative flex items-center">
     <video muted autoplay loop class="absolute w-full h-full object-cover">
         <source src="/videos/hero_bg.mp4" type="video/mp4" />
     </video>
+
+    <div class="absolute w-full h-20 bottom-0 left-0 bg-gradient-to-b from-transparent to-dark"></div>
 
     <div class="container mx-auto relative z-10 space-y-4 text-light">
         <h1>Verwirkliche deine <br /> 3D-Visionen</h1>

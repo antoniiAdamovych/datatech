@@ -7,8 +7,12 @@ export default {
         primary: "#00C2CB",
         secondary: "#242834",
         dark: "#00060f",
-        light: "#ffffff"
+        light: "#ffffff",
+        muted: "#a5a5a5"
       }
+    },
+    container: {
+      center: true,
     },
   },
   plugins: [],
