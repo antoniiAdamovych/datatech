@@ -68,11 +68,11 @@
                 class="absolute top-4 right-4 lg:hidden">close</button
             >
             <ul
-                class={`flex flex-col lg:flex-row w-full justify-center gap-4 bg-dark lg:px-8 py-3 rounded-full text-light transition-shadow duration-300 relative lg:after:absolute lg:after:bottom-0 lg:after:left-0 lg:after:w-full lg:after:rounded-full lg:after:h-full lg:after:border-b lg:after:border-muted lg:after:duration-500 lg:after:transition-opacity ${ShadowActive ? "lg:after:opacity-100" : "lg:after:opacity-0"}`}
+                class={`flex flex-col z-0 lg:flex-row w-full justify-center gap-4 bg-dark lg:px-8 py-3 rounded-full text-light transition-shadow duration-300 relative lg:after:absolute lg:after:bottom-0 lg:after:left-0 lg:after:w-full lg:after:rounded-full lg:after:h-full lg:after:border-b lg:after:border-muted lg:after:duration-500 lg:after:transition-opacity ${ShadowActive ? "lg:after:opacity-100" : "lg:after:opacity-0"}`}
             >
                 {#each links as link}
                     <li
-                        class={`relative text-4xl lg:text-lg text-center after:absolute after:w-full after:bottom-0 after:left-0 after:rounded-full after:max-w-0 after:duration-300 after:transition-[max-width] after:h-px after:bg-primary hover:after:max-w-full ${$page.url.pathname == link.href ? "after:max-w-full" : ""}`}
+                        class={`relative z-10 text-4xl lg:text-lg text-center after:absolute after:w-full after:bottom-0 after:left-0 after:rounded-full after:max-w-0 after:duration-300 after:transition-[max-width] after:h-px after:bg-primary hover:after:max-w-full ${$page.url.pathname == link.href ? "after:max-w-full" : ""}`}
                     >
                         <a on:click={toggleMenu} href={link.href}
                             >{link.label}</a
