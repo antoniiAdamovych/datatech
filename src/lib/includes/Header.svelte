@@ -30,7 +30,6 @@
     let ShadowActive = false;
     onMount(() => {
         window.addEventListener("scroll", () => {
-            console.log(window.scrollY);
             if (window.scrollY > 100) {
                 ShadowActive = true;
             } else {

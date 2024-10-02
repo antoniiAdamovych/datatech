@@ -6,7 +6,7 @@
                 class="relative max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto"
             >
                 <!-- Title -->
-                <div class="max-w-2xl w-3/4 lg:w-1/2 mb-6 sm:mb-10 md:mb-16">
+                <div class="max-w-2xl w-3/4 lg:w-1/2 mb-6 sm:mb-10 md:mb-16" data-anim="fade-in">
                     <h2
                         class="text-2xl sm:text-3xl lg:text-4xl font-semibold"
                     >
@@ -18,7 +18,7 @@
                 <!-- Grid -->
                 <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     <!-- Card -->
-                    <div class="flex h-auto">
+                    <div class="flex h-auto" style="--anim-delay: 0s;" data-anim="fade-in slide-top">
                         <div
                             class="flex flex-col bg-white rounded-xl dark:bg-secondary"
                         >
@@ -64,7 +64,7 @@
                     <!-- End Card -->
 
                     <!-- Card -->
-                    <div class="flex h-auto">
+                    <div class="flex h-auto" style="--anim-delay: 0.05s;" data-anim="fade-in slide-top">
                         <div
                             class="flex flex-col bg-white rounded-xl dark:bg-secondary"
                         >
@@ -111,7 +111,7 @@
                     <!-- End Card -->
 
                     <!-- Card -->
-                    <div class="flex h-auto">
+                    <div class="flex h-auto" style="--anim-delay: 0.1s;" data-anim="fade-in slide-top">
                         <div
                             class="flex flex-col bg-white rounded-xl dark:bg-secondary"
                         >
@@ -163,7 +163,7 @@
                     class="mt-20 grid gap-6 grid-cols-2 sm:gap-12 lg:grid-cols-3 lg:gap-8"
                 >
                     <!-- Stats -->
-                    <div>
+                    <div style="--anim-delay: 0s;" data-anim="fade-in">
                         <h4 class="text-lg sm:text-xl font-semibold">
                             Accuracy rate
                         </h4>
@@ -177,7 +177,7 @@
                     <!-- End Stats -->
 
                     <!-- Stats -->
-                    <div>
+                    <div style="--anim-delay: 0.05s;" data-anim="fade-in">
                         <h4 class="text-lg sm:text-xl font-semibold">
                             Startup businesses
                         </h4>
@@ -191,7 +191,7 @@
                     <!-- End Stats -->
 
                     <!-- Stats -->
-                    <div>
+                    <div style="--anim-delay: 0.1s;" data-anim="fade-in">
                         <h4 class="text-lg sm:text-xl font-semibold">
                             Happy customer
                         </h4>

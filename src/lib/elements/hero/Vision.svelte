@@ -7,6 +7,7 @@
                 <div class="grid gap-12">
                     <div>
                         <h2
+                            data-anim="fade-in slide-top"
                             class="text-3xl text-light font-bold lg:text-4xl"
                         >
                             Our vision
@@ -23,7 +24,7 @@
 
                     <div class="space-y-6 lg:space-y-10">
                         <!-- Icon Block -->
-                        <div class="flex gap-x-5 sm:gap-x-8">
+                        <div style="--anim-delay: 0s;" data-anim="fade-in slide-right" class="flex gap-x-5 sm:gap-x-8">
                             <svg
                                 class="shrink-0 mt-2 size-6 text-light "
                                 xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +66,7 @@
                         <!-- End Icon Block -->
 
                         <!-- Icon Block -->
-                        <div class="flex gap-x-5 sm:gap-x-8">
+                        <div style="--anim-delay: 0.05s;" data-anim="fade-in slide-right" class="flex gap-x-5 sm:gap-x-8">
                             <svg
                                 class="shrink-0 mt-2 size-6 text-light "
                                 xmlns="http://www.w3.org/2000/svg"
@@ -101,7 +102,7 @@
                         <!-- End Icon Block -->
 
                         <!-- Icon Block -->
-                        <div class="flex gap-x-5 sm:gap-x-8">
+                        <div style="--anim-delay: 0.1s;" data-anim="fade-in slide-right" class="flex gap-x-5 sm:gap-x-8">
                             <svg
                                 class="shrink-0 mt-2 size-6 text-light "
                                 xmlns="http://www.w3.org/2000/svg"
@@ -136,7 +137,7 @@
                         </div>
                         <!-- End Icon Block -->
                     </div>
-                    <a class="btn-primary" href="/about">More about us</a>
+                    <a class="btn-primary w-max" href="/about">More about us</a>
                 </div>
                 <!-- End Grid -->
             </div>

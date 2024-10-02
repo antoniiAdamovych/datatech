@@ -41,6 +41,35 @@
         font-weight: normal;
         font-style: normal;
     }
+
+    *[data-anim] {
+        @apply transition-all duration-700;
+
+        transition-delay: var(--anim-delay);
+
+        position: relative;
+
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    *[data-anim*="fade-in"]:not(.fade-in) {
+        @apply opacity-0;
+    }
+
+    *[data-anim*="slide-right"]:not(.slide-right) {
+        @apply -left-24;
+    }
+
+    *[data-anim*="slide-left"]:not(.slide-left) {
+        @apply left-24;
+    }
+
+    *[data-anim*="slide-top"]:not(.slide-top) {
+        @apply -top-10;
+    }
 }
 
 header,

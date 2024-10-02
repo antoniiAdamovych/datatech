@@ -2,7 +2,7 @@
     <div class="container">
         <div class=" py-24 sm:py-32">
             <div class="mx-auto px-6 lg:px-8">
-                <div class="mx-auto lg:text-center">
+                <div class="mx-auto lg:text-center" data-anim="fade-in">
                     <h2
                         class="text-base font-semibold leading-7 text-primary"
                     >
@@ -25,7 +25,7 @@
                     <dl
                         class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16"
                     >
-                        <div class="relative pl-16">
+                        <div class="relative pl-16" data-anim="fade-in slide-right">
                             <dt
                                 class="text-base font-semibold leading-7 text-light"
                             >
@@ -55,7 +55,7 @@
                                 massa nunc massa.
                             </dd>
                         </div>
-                        <div class="relative pl-16">
+                        <div class="relative pl-16" data-anim="fade-in slide-left">
                             <dt
                                 class="text-base font-semibold leading-7 text-light"
                             >
@@ -85,7 +85,7 @@
                                 quam turpis enim lacus amet.
                             </dd>
                         </div>
-                        <div class="relative pl-16">
+                        <div class="relative pl-16" data-anim="fade-in slide-right">
                             <dt
                                 class="text-base font-semibold leading-7 text-light"
                             >
@@ -115,7 +115,7 @@
                                 commodo diam neque.
                             </dd>
                         </div>
-                        <div class="relative pl-16">
+                        <div class="relative pl-16" data-anim="fade-in slide-left">
                             <dt
                                 class="text-base font-semibold leading-7 text-light"
                             >
