@@ -23,7 +23,6 @@ export function Observe(targetClass: string) {
     };
 
     const options = {
-        root: document.querySelector("#scrollArea"),
         rootMargin: "80px",
         threshold: 1.0,
     };
