@@ -2,13 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+
+:root {
+    --primary-color: #00C2CB;
+    --secondary-color: #242834;
+    --dark-color: #00060f;
+    --light-color: #ffffff;
+    --muted-color: #a5a5a5;
+}
+
 @layer components {
 
-    button[class^="btn-"], a[class^="btn-"] {
+    button[class^="btn-"],
+    a[class^="btn-"] {
         @apply rounded-full px-6 py-2 transition-all duration-500 scale-100;
     }
 
-    button[class^="btn-"]:active, a[class^="btn-"]:active {
+    button[class^="btn-"]:active,
+    a[class^="btn-"]:active {
         @apply transform scale-95;
     }
 
@@ -35,7 +46,7 @@
 
     body {
         @apply text-light;
-        
+
         font-family: "Montserrat", system-ui;
         font-optical-sizing: auto;
         font-weight: normal;

@@ -1,2 +1,7 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+    import Hero from "$lib/elements/career/Hero.svelte";
+    import Stories from "$lib/elements/career/Stories.svelte";
+</script>
+
+<Hero />
+<Stories />
