@@ -3,8 +3,8 @@
 </script>
 
 <section>
-    <div class="container relative min-h-[80dvh] py-40 flex flex-col gap-6">
-        <div class=" space-y-4">
+    <div class="container relative min-h-[60dvh] py-40 flex flex-col gap-6">
+        <div class="space-y-4">
             <div class="w-32 text-muted pl-4 hover:text-primary lg:self-center lg:hidden"><Globe /></div>
             <h1 class="lg:text-7xl max-w-5xl">
                 How Have You Changed the World Today?

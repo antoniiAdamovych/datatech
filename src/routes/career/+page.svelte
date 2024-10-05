@@ -1,7 +1,5 @@
 <script lang="ts">
-    import Hero from "$lib/elements/career/Hero.svelte";
-    import Stories from "$lib/elements/career/Stories.svelte";
-</script>
+    import { goto } from "$app/navigation";
 
-<Hero />
-<Stories />
+    goto("/career/working-at");
+</script>

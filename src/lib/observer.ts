@@ -43,7 +43,7 @@ const initObserver = ({options, items}: initProps) => {
 export function Observe(items: NodeListOf<Element>) {
 
     const options = {
-        rootMargin: "80px",
+        rootMargin: "50%",
         threshold: 1.0,
     };
 
