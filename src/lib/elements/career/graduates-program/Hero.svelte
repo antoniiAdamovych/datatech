@@ -15,7 +15,7 @@
                             data-anim="fade-in slide-top"
                             class="inline-block text-sm font-medium bg-clip-text bg-gradient-to-l text-primary"
                         >
-                            datatech family
+                            Preline: A vision for 2023
                         </p>
 
                         <!-- Title -->
@@ -24,7 +24,7 @@
                                 data-anim="fade-in"
                                 class="block font-semibold text-4xl md:text-5xl lg:text-6xl text-light"
                             >
-                                We build people that build the world
+                                Power Up Your Future
                             </h1>
                         </div>
                         <!-- End Title -->
@@ -35,11 +35,10 @@
                             data-anim="fade-in"
                         >
                             <p class="text-lg text-muted">
-                                While we hire for specific roles, we are always
-                                open to receive applications for jobs that
-                                aren’t (yet) listed. If you possess a skill, you
-                                believe will bring our company forward, we’re
-                                excited to hear from you.
+                                You are done with school or about to graduate?
+                                You want a job that’s challenging but rewarding
+                                and you want to work with and learn from some of
+                                the best talents in our industry?
                             </p>
                         </div>
                     </div>
