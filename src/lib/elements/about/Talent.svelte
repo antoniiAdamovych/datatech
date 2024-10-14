@@ -19,7 +19,8 @@
             <div
                 class="text-center flex items-center gap-4 border border-secondary w-max mx-auto px-4 py-1 rounded-lg"
             >
-                <p class="max-w-40 md:max-w-auto">Ready to connect with our future?</p>
+                <p class="max-w-40 md:max-w-auto
+                ">Ready to connect with our future?</p>
                 <a href="/career/jobs" class="bg-primary bg-opacity-30 px-4 py-1 rounded-lg border border-primary transition-all duration-300 hover:shadow hover:shadow-primary">Apply now</a>
             </div>
         </div>
