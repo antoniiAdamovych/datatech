@@ -86,15 +86,15 @@
     };
 </script>
 
-<header class="fixed top-4 z-50 left-1/2 -translate-x-1/2">
-    <div class="container flex items-center maw-w-screen justify-between">
-        <div class="w-10 h-10 aspect-square bg-light rounded-lg">
+<header class="fixed top-4 z-50 left-1/2 -translate-x-1/2 px-2">
+    <div class="container flex items-center maw-w-screen justify-between relative after:absolute after:w-full after:h-full after:top-0 after:left-0 after:-z-10 lg:bg-transparent lg:border-none lg:after:hidden after:rounded-xl after:bg-dark bg-secondary bg-opacity-30 border border-secondary rounded-xl py-1">
+        <div class="w-10 h-10 aspect-square rounded-lg">
             <a href="/"><Logo /></a>
         </div>
         <div>
             <button
                 on:click={toggleMenu}
-                class="lg:hidden w-10 bg-light rounded-lg flex"
+                class="lg:hidden w-10 rounded-lg flex"
                 ><Hamburger /></button
             >
             <div
