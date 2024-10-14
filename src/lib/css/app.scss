@@ -36,6 +36,10 @@
         @apply overflow-x-hidden;
     }
 
+    section {
+        @apply py-8;
+    }
+
     h1 {
         @apply text-5xl leading-[3.3rem] lg:text-8xl;
     }
