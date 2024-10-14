@@ -2,7 +2,7 @@
     import Globe from "./components/Globe.svelte";
 </script>
 
-<section>
+<section id="company">
     <div class="container relative min-h-[60dvh] py-40 flex flex-col gap-6">
         <div class="space-y-4">
             <div class="w-32 text-muted pl-4 hover:text-primary lg:self-center lg:hidden"><Globe /></div>

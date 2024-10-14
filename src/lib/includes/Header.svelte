@@ -19,15 +19,15 @@
             label: "About",
             children: [
                 {
-                    href: "/about/company",
+                    href: "/about#company",
                     label: "Company",
                 },
                 {
-                    href: "/about/history",
+                    href: "/about#history",
                     label: "History",
                 },
                 {
-                    href: "/about/team",
+                    href: "/about#team",
                     label: "Our team",
                 },
             ],
