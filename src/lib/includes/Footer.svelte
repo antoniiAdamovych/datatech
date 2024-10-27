@@ -22,12 +22,8 @@
                     class="mt-12 grid items-center lg:grid-cols-2 gap-6 lg:gap-16"
                 >
                     <!-- Card -->
-                    <div
-                        class="flex flex-col rounded-xl p-4 sm:p-6 lg:p-8"
-                    >
-                        <h2
-                            class="mb-8 text-xl font-semibold text-light"
-                        >
+                    <div class="flex flex-col rounded-xl p-4 sm:p-6 lg:p-8">
+                        <h2 class="mb-8 text-xl font-semibold text-light">
                             Fill in the form
                         </h2>
 
@@ -396,6 +392,10 @@
                     <p class="text-sm text-neutral-400">
                         © 2024 datatech Inc.
                     </p>
+                    <a
+                        class="text-sm text-neutral-400 underline"
+                        href="/imprint">Legal Notice</a
+                    >
                 </div>
             </div>
         </div>
