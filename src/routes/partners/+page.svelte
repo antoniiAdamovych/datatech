@@ -3,7 +3,7 @@
         <!-- Clients -->
         <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
             <!-- Title -->
-            <div class="w-2/3 sm:w-1/2 lg:w-1/3 mx-auto text-center mb-6">
+            <div class="w-2/3 sm:w-1/2 lg:w-2/3 mx-auto text-center mb-6">
                 <h2 class="text-gray-600 dark:text-neutral-400">
                     Datatech is proud to collaborate with a network of
                     exceptional partners who share our commitment to innovation
@@ -17,12 +17,12 @@
             <!-- Our Clients Section -->
 
             <div class="w-2/3 sm:w-1/2 lg:w-1/3 mx-auto text-center mb-6">
-                <h2 class="text-gray-600 dark:text-neutral-400">
+                <h2 class="text-2xl text-gray-600 dark:text-neutral-400">
                     Our Clients
                 </h2>
             </div>
 
-            <div class="w-2/3 sm:w-1/2 lg:w-1/3 mx-auto text-center mb-6">
+            <div class="w-2/3 sm:w-1/2 lg:w-2/3 mx-auto text-center mb-6">
                 <h2 class="text-gray-600 dark:text-neutral-400">
                     Datatech's client base spans a diverse range of industries,
                     from technology giants to small and medium-sized
