@@ -7,6 +7,7 @@
 </script>
 
 <Hero />
-<Features />
+<!-- <Features />
 <Vision />
 <Testimonials />
+-->
