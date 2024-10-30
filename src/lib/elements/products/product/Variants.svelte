@@ -3,41 +3,21 @@
 
     const data = [
         {
-            label: "Industrial Cables",
-            img: "/img/products/1.jpg",
+            label: "Power Cables",
+            img: "/img/products/industrial/cables1.png",
         },
         {
-            label: "Data & Communication Cables",
-            img: "/img/products/2.jpg",
+            label: "Control Cables",
+            img: "/img/products/industrial/cables2.png",
         },
         {
-            label: "Connector Solutions",
-            img: "/img/products/3.jpg",
+            label: "Instrumentation Cables",
+            img: "/img/products/industrial/cables3.png",
         },
         {
-            label: "Custom Cable Assemblies",
-            img: "/img/products/4.jpg",
-        },
-        {
-            label: "Automotive & Transportation Cables",
-            img: "/img/products/5.jpg",
-        },
-        {
-            label: "Telecommunication & Networking Solutions",
-            img: "/img/products/6.jpg",
-        },
-        {
-            label: "High-Temperature & Specialty Cables",
-            img: "/img/products/7.png",
-        },
-        {
-            label: "Accessories",
-            img: "/img/products/8.jpg",
-        },
-        {
-            label: "Tools & Testing Equipment",
-            img: "/img/products/9.jpg",
-        },
+            label: "Flexible Cables",
+            img: "/img/products/industrial/cables4.png",
+        }
     ];
 
     let mouseOver = false;
@@ -135,11 +115,11 @@
     <div class="container relative z-20">
         <div
             style="--gap: 1rem;"
-            class="flex flex-wrap gap-[var(--gap)] items-center justify-center"
+            class="flex flex-wrap gap-[var(--gap)] items-center justify-center w-[60%] mx-auto"
         >
             {#each data as item}
-                <a href="/products/industrial-cabels"
-                    class="w-full bg-dark lg:w-[calc(33%-var(--gap))] z-0 aspect-[3/2] group relative flex-grow flex flex-col justify-center items-center p-4 rounded-xl cursor-pointer"
+                <div 
+                    class="w-full bg-dark lg:w-[calc(50%-var(--gap))] z-0 aspect-[3/2] group relative flex-grow flex flex-col justify-center items-center p-4 rounded-xl cursor-default"
                 >
                     <img
                         class="w-full z-10 h-full object-cover absolute top-0 left-0 rounded-xl opacity-40 transition-opacity duration-300 group-hover:opacity-60"
@@ -147,7 +127,7 @@
                         alt={item.label}
                     />
                     <h4 class="relative z-20">{item.label}</h4>
-                </a>
+                </div>
             {/each}
         </div>
     </div>
