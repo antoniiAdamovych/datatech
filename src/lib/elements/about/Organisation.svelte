@@ -40,5 +40,8 @@
             <!-- End Grid -->
         </div>
         <!-- End Features -->
+         <div class=" max-w-5xl mx-auto">
+            <img class="rounded-xl shadow shadow-secondary transition-all duration-300 hover:shadow-primary" src="/img/about/organigramm.png" alt="">
+         </div>
     </div>
 </section>
